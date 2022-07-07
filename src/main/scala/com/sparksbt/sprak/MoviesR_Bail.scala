@@ -50,10 +50,10 @@ object MoviesR_Bail {
       ,col("RatingNumber"))
     val Similarity = MoviesSimCal.orderBy(desc("RatingNumber"), desc("SimilarityRating"))
 
-    print(Similarity.show(30))
+    //print(Similarity.show(30))
     //result.show(10)
 
-
+println("New modification")
 
 
     spark.stop()
